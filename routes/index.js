@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('sign-in', { title: 'Express'});
+  res.render('user-dashboard', { title: 'Express'});
 });
 
 /* sign-up */
-router.get('/sign-up', function(req, res, next) {
-  res.render('sign-up', { title: 'Express'});
+router.get('/sign-in', function(req, res, next) {
+  res.render('sign-in', { title: 'Express'});
 });
 
 /* dashboard */
